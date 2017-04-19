@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gallery"
+    tools:context=".onlineGallery" >
+
+   
+    <ImageButton
+        android:id="@+id/downloadstory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="#00000000"
+        android:contentDescription="@string/downloadstory"
+        android:gravity="center"
+        android:src="@drawable/downloadicon" />
+
+            <ImageButton
+                android:id="@+id/midStory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/downloadstory"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="66dp"
+                android:contentDescription="@string/midStory"
+                android:src="@drawable/tinyhip" />
+
+            <ImageButton
+                android:id="@+id/arrowRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/arrowLeft"
+                android:layout_marginLeft="75dp"
+                android:layout_toRightOf="@+id/midStory"
+                android:background="#00000000"
+                android:contentDescription="@string/rightarrow"
+                android:src="@drawable/arrowright" />
+
+            <ImageView
+                android:id="@+id/nextStory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/prevStory"
+                android:layout_marginRight="112dp"
+                android:contentDescription="@string/nextStory"
+                android:src="@drawable/next_story" />
+
+            <ImageButton
+                android:id="@+id/arrowLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/prevStory"
+                android:layout_marginBottom="45dp"
+                android:layout_marginRight="81dp"
+                android:layout_toLeftOf="@+id/midStory"
+                android:background="#00000000"
+                android:contentDescription="@string/leftarrow"
+                android:src="@drawable/arrowleft" />
+
+            <ImageView
+                android:id="@+id/prevStory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/midStory"
+                android:layout_marginRight="117dp"
+                android:layout_marginTop="54dp"
+                android:layout_toLeftOf="@+id/arrowLeft"
+                android:contentDescription="@string/prevStory"
+                android:src="@drawable/prev_story" />
+    
+</RelativeLayout>

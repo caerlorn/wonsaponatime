@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prototype v1.0</string>
+    <string name="menu_settings">Settings</string>
+    <string name="submit">Submitted By</string>
+    <string name="edit_message">Tell us your story</string>
+    <string name="add_text">Add a text</string>
+    <string name="exit">Exit to the main menu</string>
+    <string name="add_image">Add image</string>
+    <string name="record_sound">Sound recording</string>
+    <string name="add_page">New Page</string>
+    <string name="crayon">Colour</string>
+    <string name="rightarrow">Next</string>
+    <string name="leftarrow">Previous</string>
+    <string name="deleteElement">Delete</string>
+    <string name="goOnline">Open the online gallery</string>
+    <string name="goLocal">Open the local gallery</string>
+    <string name="downloadstory">Download the story</string>
+    <string name="tinyRaven">Tiny Raven</string>
+    <string name="tinyHippo">Tiny Hippo</string>
+    <string name="tinyTrain">Tiny Train</string>
+    <string name="quit">Quit the app</string>
+    <string name="login">Login</string>
+    <string name="newStory">New Story</string>
+    <string name="readStory">Read Story</string>
+    <string name="viewGallery">View the gallery</string>
+    <string name="tinyText1">&#8230;And Stabbed His Tiny Body To Death.</string>
+    <string name="tinyText2">Ain\'t No One Messes With Tiny Hippo.</string>
+    <string name="tinyText3">Ain\'t No One.</string>
+    <string name="midStory">Tiny Hippo and Tiny Raven</string>
+    <string name="prevStory">Wolf Sister</string>
+    <string name="nextStory">Stick Of The Truth</string>
+    <string name="scaleImage">scaleImage</string>
+         
+
+</resources>

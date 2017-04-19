@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scaleLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+"
+
+    <TextView
+        android:id="@+id/scaleInfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="34dp"
+        android:text="Enter percentage to scale image" />
+
+    <EditText
+        android:id="@+id/scalemult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/scaleInfoText"
+        android:layout_below="@+id/scaleInfoText"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="****"
+        android:inputType="number" />
+
+
+
+</RelativeLayout>

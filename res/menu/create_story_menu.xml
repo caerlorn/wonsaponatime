@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/deleteElement"
+        android:showAsAction="always"
+        android:title="@string/deleteElement"
+        android:icon="@drawable/delete" />
+      
+
+    <item   
+        android:id="@+id/exit"
+        android:showAsAction="always"
+        android:title="@string/exit"
+		android:icon="@drawable/exit_icon" />
+    
+    <item 
+        android:id="@+id/addText"
+		android:title="@string/add_text"
+        android:icon="@drawable/add_text_icon"
+        android:showAsAction="always"  />
+    
+   <item
+        android:id="@+id/addImage"
+        android:icon="@drawable/insert_image_icon"
+        android:title="@string/add_image"
+        android:showAsAction="always" />
+   
+   <item
+        android:id="@+id/record"
+        android:icon="@drawable/record"
+        android:title="@string/record_sound" 
+       	android:showAsAction="always" />
+
+    
+
+    <item
+        android:id="@+id/drawCrayon"
+        android:title="@string/crayon"
+        android:icon="@drawable/draw_icon" 
+        android:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/addPage"
+        android:title="@string/add_page"
+        android:icon="@drawable/new_page_icon" 
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/scaleImage"
+        android:title="@string/scaleImage"
+        android:icon="@drawable/scaleimage"
+        android:showAsAction="always" />
+	<item
+	    android:id="@+id/playAudio"        
+	    android:title="playAudio"
+        android:icon="@drawable/playaudio"
+        android:showAsAction="always" />
+</menu>
